@@ -1,0 +1,184 @@
+@media screen and (min-width: 390px) {
+.shadow{
+    filter: blur(100px);
+    border-radius: 2.71815e+07px;
+    transform: rotate(131.65deg);
+    }
+.blueShadow1{
+    composes: shadow;
+    position: absolute;
+    width: 589.46px;
+    height: 349.73px;
+    left: 20px;
+    top: 2020px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.115) 0%, rgba(40, 0, 153, 0.115) 91.72%);
+}
+.blueShadow2 {
+    composes: shadow;
+    position: absolute;
+    width: 477.3px;
+    height: 283.18px;
+    left: -200px;
+    top: 1150px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+}
+.blueShadow3 {
+    composes: shadow;
+    position: absolute;
+    width: 477.3px;
+    height: 283.18px;
+    left: -200px;
+    top: 2870px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+}
+.blueShadow4{
+    composes: shadow;
+    position: absolute;
+    width: 321.54px;
+    height: 190.77px;
+    left: 28px;
+    top: -5.21px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.115) 0%, rgba(40, 0, 153, 0.115) 91.72%);
+}
+.generalShadow1 {
+    position: absolute;
+    width: 494px;
+    height: 398px;
+    left: 99px;
+    top: 361px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.generalShadow2 {
+    position: absolute;
+    width: 376px;
+    height: 303px;
+    left: -109px;
+    top: -125px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+}
+.generalShadow4 {
+    position: absolute;
+    width: 192px;
+    height: 107px;
+    left: 91px;
+    top: 2570px;
+    background: #949494;
+    opacity: 0.5;
+    filter: blur(275px);
+}
+.generalShadow5{
+    position: absolute;
+    width: 318px;
+    height: 257px;
+    left: 197px;
+    top: 650px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+}
+.generalShadow6{
+    position: absolute;
+    width: 256px;
+    height: 231px;
+    left: 191px;
+    top: 4350px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%, rgba(196, 196, 196, 0) 100%);
+    opacity: 0.59;
+}
+.generalShadow7{
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    left: -3px;
+    top: 2810px; 
+    background: #666666;
+    filter: blur(250px);
+}
+.generalShadow8{
+    position: absolute;
+    width: 182px;
+    height: 183px;
+    left: 290px;
+    top: 1870px;
+    background: #929292;
+    filter: blur(225px);
+}
+}
+
+@media screen and (min-width: 1440px) {
+.blueShadowsWrapper{
+    width: 2705.63px;
+    height: 2372.47px;
+    margin-top: 134px;
+    z-index: 1;
+}
+.blueShadow1{
+    position: absolute;
+    width: 1185.68px;
+    height: 703.47px;
+    left: 820px;
+    top: 570px;       
+}
+.blueShadow2 {
+    position: absolute;
+    width: 1185.68px;
+    height: 703.47px;
+    left: -556px;
+    bottom: 330px;
+}
+.generalShadowWrapper{
+    width: 1809px; 
+    position: relative;
+    z-index: 2;
+}
+
+.generalShadow1 {
+    position: absolute;
+    width: 742px;
+    height: 597px;
+    left: 900px;
+    top: -35px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.generalShadow2 {
+    position: absolute;
+    width: 742px;
+    height: 597px;
+    left: -150px;
+    top: -270px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.generalShadow3 {
+position: absolute;
+    width: 923.19px;
+    height: 580.96px;
+    left: 98px;
+    bottom: -3500px;
+
+    background: linear-gradient(0deg, rgba(87, 87, 87, 0.23), rgba(87, 87, 87, 0.23));
+    filter: blur(100px);
+    border-radius: 2.71815e+07px;
+    transform: rotate(157.5deg);
+}
+.generalShadow4{
+    position: absolute;
+    width: 497px;
+    height: 277px;
+    left: 550px;
+    top: 2040px;
+    background: #949494;
+    opacity: 0.5;
+    filter: blur(275px);
+
+}
+.generalShadow5,
+.generalShadow6,
+.generalShadow7,
+.generalShadow8
+.blueShadow3,
+.blueShadow4{
+    visibility: hidden;
+}
+}

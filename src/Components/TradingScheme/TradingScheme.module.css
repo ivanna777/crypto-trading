@@ -1,0 +1,389 @@
+@media screen and (min-width: 390px) {
+.wrapper {
+    margin-bottom: 100px;
+    z-index: 3;  
+}
+.adWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.boxItem,
+.boxItemStorage,
+.boxItemPP,
+.boxItemPrivate {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px; 
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.14)) border-box;
+    border: 1px solid transparent;
+    border-radius: 10.82px;
+}
+.box {
+    width: 334px;
+    background: linear-gradient(rgb(28, 28, 40), rgb(28, 28, 40)) padding-box,
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.14)) border-box;
+    border: 1px solid transparent;
+    border-radius: 28px;
+}
+.box1{
+    composes: box;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 58px;
+    position: relative;
+}
+.box1 .boxItem,
+.boxItemStorage,
+.boxItemPP {
+    width: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.adWrapper .boxItem,
+.boxItemStorage{
+    width: 130px;
+}
+.box1 .boxItem::after,
+.boxItemStorage::after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 65px;
+    display: block;
+    width: 0.9px;
+    height: 26px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+}
+.boxItemPP::after{
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 80px;
+    display: block;
+    width: 0.9px;
+    height: 140px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+}
+
+.box1::after {
+    content: '';
+    position: absolute;
+    top: 135px;
+    left: 167.5px;
+    display: block;
+    width: 0.9px;
+    height: 167px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+    rotate: 90deg;
+}
+
+.box2 .boxItem::before {
+    content: '';
+    position: absolute;
+    top: -25.5px;
+    left: 84px;
+    display: block;
+    width: 0.9px;
+    height: 24px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+} 
+.boxItemPrivate::before {
+    content: '';
+    position: absolute;
+    top: -25.5px;
+    left: 69px;
+    display: block;
+    width: 0.9px;
+    height: 24px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+}
+
+.box2 .boxItem::after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 84px;
+    display: block;
+    width: 0.9px;
+    height: 63px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.boxItemPrivate::after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 69px;
+    display: block;
+    width: 0.9px;
+    height: 63px;
+    background: rgba(94, 89, 113, 1);
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.lineShadow1 {
+    display: block;
+    height: 52px;
+    position: absolute;
+    bottom: -26px;
+    left: 154px;
+}
+
+.arrow1 {
+    position: absolute;
+    bottom: -26px;
+    left: 151px;
+}
+
+.arrow2 {
+    position: absolute;
+    bottom: 23px;
+    left: 180px;
+    rotate: 180deg;
+}
+
+.lineShadow2 {
+    position: absolute;
+    height: 52px;
+    bottom: -26px;
+    left: 183px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.box2 .boxItem,
+.boxItemPrivate {
+    width: 150px;
+    position: relative;
+}
+.adWrapper2{
+    margin: 0 auto;
+}
+.adWrapper3{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 21px;
+}
+.box3{
+    composes:box;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+
+}
+.box3 .boxItem {
+    width: 130px;
+    margin: 0 auto;
+}
+.triangleSvg {
+    display: block;
+    width: 28px;
+    height: 31px;
+    margin: 0 auto;
+    margin-bottom: 23.29px;
+}
+
+.note {
+    font-weight: 400;
+    font-size: 14.4222px;
+    line-height: 138%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 227px;
+    margin-bottom: 59px;
+}
+
+.note2 {
+    font-weight: 400;
+    font-size: 14.4222px;
+    line-height: 138%;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -75px;
+    left: 130px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.wrapper {
+    display: flex;
+    align-items: end;
+    padding-left: 135px;
+    margin-right: 46px;
+    margin-bottom: 0;
+}
+
+.adWrapper{
+    flex-direction: column;
+    margin-top: unset;
+}
+.boxItem,
+.boxItemStorage,
+.boxItemPP,
+.boxItemPrivate {
+    font-size: 14.4222px;
+    line-height: 170%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162.25px;
+    height: 52.28px;
+    border: 0.9px;
+    margin: 0 auto;
+    position: relative;
+}
+.box {
+    width: 216.33px;
+    border: 0.9px;  
+    border-radius: 25.2389px;
+}
+.box1 {
+    padding-top: 40.56px;
+    padding-bottom: 13.44px;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: unset;    
+    margin-right: 35.15px; 
+    position: relative;       
+}
+.box1 .boxItem,
+.boxItemStorage,
+.boxItemPP {
+    width:162.25px;
+    margin: unset;
+    margin-bottom: 27px;
+}
+.box1 .boxItem::after,
+.boxItemPP::after {
+    left: 175px;
+    top: 14px;
+    height: 28px;
+    rotate: 90deg;
+}
+
+.boxItemStorage::after{
+    left: 185px;
+    top: 3px;
+    height: 48px;
+    rotate: 90deg;
+}
+
+.box1::after {
+    position: absolute;
+    left: 236px;
+    top: 90px;
+    height: 100px;
+    rotate: 180deg;
+}
+.box2 .boxItem::before,
+.boxItemPrivate::before {
+    position: absolute;
+    height: 15px;
+    left: -7px;
+    top: 15px;
+    rotate: 90deg;
+}
+.box2 .boxItem::after,
+.boxItemPrivate::after {
+    position: absolute;
+    height: 85px;
+    rotate: 90deg;
+    left: 204px;
+    top: -19px;
+}
+
+.box2 {
+    margin-right: 33.35px;
+    margin-bottom: unset;
+    height: 151.44px;
+    padding-top: 70px;
+    padding-bottom: 72px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box2 .boxItem,
+.boxItemPrivate {
+    width: 162.25px;
+}
+
+.adWrapper3 {
+    display: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+}
+.box3 {
+    width: 265.91px;
+    height: 361.63px;
+    display: unset;
+    flex-direction: unset;
+    padding-top: 24.3px;
+    position: relative;
+}
+.box3 .boxItem {
+    width:162.25px;
+    margin-bottom: 47px;
+}
+
+.triangleSvg {
+    margin-bottom: 21.63px;
+}
+
+.note{
+    width: 204px;
+    margin: 0 auto;
+    margin-bottom: 24.73px;
+}
+.note2{
+    position: absolute;
+    bottom: -80px;
+    left: 95px;
+    color: #FFFFFF;
+}
+.lineShadow1 {
+    height: unset;
+    bottom: -40px;
+    left: 120px;
+    opacity: 0.8;
+}
+.arrow1{
+    position: absolute;
+    left: 119px;
+    bottom: -39px;
+}
+.arrow2 {
+    position: absolute;
+    left: 139px;
+    bottom: 51px;
+    rotate: 180deg;
+}
+.lineShadow2 {
+    height: unset;
+    bottom: -40px;
+    left: 140px;
+    opacity: 0.8;
+}
+}

@@ -1,0 +1,108 @@
+@media screen and (min-width: 390px) {
+.wrapper {  
+    padding-left: 28px;
+    padding-right: 28px;
+    background-image: url('../../images/bcg.png');
+    position: relative;
+}
+
+.textWrapper h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.blueHeader {
+    display: block;
+    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 5.14068px 5.14068px rgba(0, 0, 0, 0.25);
+}
+.dividedHeader{
+    display: flex;
+}
+.schemeImg {
+    position: absolute;
+    visibility: hidden;
+    
+}
+.schemePhoneImg{
+    display: block;
+    position: absolute;
+    top: 450px;
+    right: 0;
+}
+.textWrapper {
+    margin-bottom: 40px;
+}
+.textWrapper p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #E9E9E9;
+    width: 246px;
+    margin: 0 auto;
+    text-align: center;
+}
+.learnBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    height: 60px;
+    padding-left: 29px;
+    padding-right: 14px;
+    margin:0 auto 418px auto;
+}
+.svgWrapper{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.svgWrapper svg{
+   margin-top:7px ; 
+}
+}
+
+@media screen and (min-width: 1440px) {
+.wrapper {
+    padding-top: 102px;
+    padding-left: 133px;
+}
+.schemeImg {
+    visibility: visible;
+    width: 584px;
+    height: 435px;
+    position: absolute;
+    right: 0;
+    top:130px;
+}
+.schemePhoneImg{
+    visibility: hidden;
+}
+.dividedHeader {
+    display: inline;
+}
+.textWrapper h4 {
+    margin-bottom: 32.26px;
+    text-align: left;
+}
+.textWrapper {
+    margin-bottom: 94px;
+}
+.textWrapper p {
+    font-weight: 400;
+    font-size: 25.7034px;
+    line-height: 30px;
+    width: 559.05px;
+    margin: 0;
+    text-align: left;
+}
+.learnBtn {
+    width: 220px;
+    height: 68px;
+    padding-left: 30px;
+    padding-right: 22px;
+    margin: 0 auto;
+    margin-bottom: 118px;
+}
+}

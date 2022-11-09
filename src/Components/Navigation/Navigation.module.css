@@ -1,0 +1,33 @@
+@media screen and (min-width: 390px){
+.menuWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuItem {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.menuItem:last-child {
+    margin-bottom: 40px;
+}
+}
+@media screen and (min-width: 1440px) {
+.menuWrapper {
+    display: unset;
+    margin-right: 47px;
+}
+.menuItem {
+    margin-bottom: unset;
+    margin-right: 45px;
+}
+
+.menuItem:last-child {
+    margin-bottom: unset;
+    margin-right: 0;
+}
+}

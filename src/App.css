@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Mazzard;
+    src: url('./font/MazzardRegular.ttf');
+}
+
+body {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 600;
+    background-color: #000000;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-shadow: 0px 5.14068px 5.14068px rgba(0, 0, 0, 0.25);
+}
+h2{ 
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: 0.02em;    
+    color: #FFFFFF; 
+}
+h3 {
+    font-size: 24px;
+    line-height: 43px;    
+    color: #FFFFFF;
+}
+h4{
+    font-weight: 500;
+    font-size: 19.2776px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;    
+    text-transform: uppercase;
+    color: #AAAAAA;
+}
+a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    color: #AAAAAA;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform:capitalize;
+    color: #FFFFFF;
+}
+.siteWrapper{
+    position: relative;
+    z-index: 6;
+}
+.shadowsWrapper{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width: 390px) {
+h1 {
+    font-size: 52px;
+    line-height: 61px;
+    display: block;
+    width: 334px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {    
+    font-size: 14px;
+    line-height: 17px;
+}
+}
+@media screen and (min-width: 1440px) {
+.app {
+    width: 1440px;
+    overflow: hidden;
+    padding-top: 22px;
+}
+body {
+    padding-top: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+    font-size: 96.3878px;
+    line-height: 90px;
+    margin-right: 92px;
+    margin-bottom: 32.13px;
+    width: 730px;
+    text-align: left;
+}
+h2{
+    font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 19.2776px;
+    line-height: 23px;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    font-size: 18px;
+    line-height: 21px;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    background: blue;
+    transition: 0.2s;
+}
+}

@@ -1,0 +1,65 @@
+@media screen and (min-width: 390px) {
+.orbits {
+    position: relative;
+}
+.orbit1,
+.orbit2,
+.orbit3,
+.orbit4 {
+    position: absolute;
+    visibility: hidden;
+}
+
+.orbit3phone{
+    position: absolute;
+    top:0;
+    right: 0;
+    opacity: 0.4;
+    z-index: 1;
+}
+.orbit4phone{
+    position: absolute;
+    top: -300px;
+    left: 0;
+    opacity: 0.4;
+    z-index: 1;
+
+}
+}
+@media screen and (min-width: 1440px) {
+.orbit1{
+    visibility: visible;
+    top: 680px;
+    left: 827px;
+    opacity: 0.4;
+    z-index: 1;
+}
+.orbit2 {
+    visibility: visible;
+    top: 486px;
+    left: 633px;
+    opacity: 0.4;
+    z-index: 1;
+}
+.orbit3 {
+    visibility: visible;
+    top: 250px;
+    left: 397px;
+    opacity: 0.4;
+    width: unset;
+    height: unset;
+}
+.orbit4 {
+    visibility: visible;
+    top:0;
+    left:147px;
+    opacity: 0.4;
+    width: unset;
+    height: unset;
+}
+.orbit3phone,
+.orbit4phone{
+    position: absolute;
+    visibility: hidden;
+}
+}

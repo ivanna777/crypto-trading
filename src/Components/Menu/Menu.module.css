@@ -1,0 +1,108 @@
+@media screen and (min-width:390px){
+.wrapper {
+    display: flex;
+    padding-left: 28px;
+    padding-top: 37px;
+    margin-bottom: 55px;
+}
+.navWrapper{
+    position: absolute;
+    top:80px;
+    left: 3%;
+    z-index: 2;
+    width: 320px;
+    padding: 25px;
+    background-color: rgb(61, 58, 78);
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    border:0.5px solid grey;
+    border-radius: 10px;
+
+}
+.active {
+    position: absolute;
+    visibility: hidden;
+}
+.logo {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuSvg span {
+    display: block;
+    border: 1px white solid;
+    width: 32px;
+    margin-bottom:8px ;
+}
+.menuSvg {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 45px;
+    right: 28px;
+    outline: none;
+    }
+
+.menuBtn {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 43px;
+    padding-right: 35px;
+    width: 170px;
+    height: 60px;
+    margin: 0 auto;
+    background: linear-gradient(140.6deg, #FFFFFF -27.18%, #DEDEDE 126.06%);
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+}
+
+
+@media screen and (min-width: 1440px) {
+.wrapper {
+    display: flex;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+    padding-top: unset;
+}
+.menuSvg {
+    display: none;
+}
+.menuWrapper {
+    display: flex;
+    align-items: center;
+   
+}
+.navWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: unset;
+    padding: unset;
+    background-color: unset;
+    box-shadow: unset;
+    border: unset;
+    border-radius: unset;
+    position: unset;
+    z-index: unset;
+}
+.active {
+    composes: navWrapper;
+    position: unset;
+    visibility: unset;
+}
+.menuBtn {
+    margin: 0;
+}
+.menuBurger {
+    visibility: hidden;
+    opacity: 0;
+}
+}
