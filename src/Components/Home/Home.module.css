@@ -4,6 +4,8 @@
     padding-right: 28px;
     background-image: url('../../images/bcgphone.png');
     position: relative;
+    padding-bottom: 418px
+    ;
 }
 
 .textWrapper h4 {
@@ -50,7 +52,7 @@
     height: 60px;
     padding-left: 29px;
     padding-right: 14px;
-    margin:0 auto 418px auto;
+    margin: 0 auto;
 }
 .svgWrapper{
     height: 34px;
@@ -66,6 +68,7 @@
 @media screen and (min-width: 1440px) {
 .wrapper {
     padding-top: 102px;
+    padding-bottom: 118px;
     padding-left: 133px;
     background-image: url('../../images/bcg.png');
 }
@@ -104,6 +107,5 @@
     padding-left: 30px;
     padding-right: 22px;
     margin: 0 auto;
-    margin-bottom: 118px;
 }
 }
