@@ -25,6 +25,22 @@
     z-index: 1;
 
 }
+.point1D,
+.point2D{
+    position: absolute;
+    visibility: hidden;
+}
+.point1Ph {
+    position: absolute;
+    top: 880px;
+    left: 237px;
+}
+
+.point2Ph {
+    position: absolute;
+    top: 1445px;
+    right: 22px;
+}
 }
 @media screen and (min-width: 1440px) {
 .orbit1{
@@ -57,9 +73,20 @@
     width: unset;
     height: unset;
 }
+.point1D{
+    visibility: visible;
+    top:1100px;
+    left: 419px;
+}
+.point2D {
+    visibility: visible;
+    top: 1180px;
+    right: 36px;
+}
 .orbit3phone,
-.orbit4phone{
-    position: absolute;
+.orbit4phone,
+.point1Ph,
+.point2Ph{
     visibility: hidden;
 }
 }

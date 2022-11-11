@@ -6,29 +6,27 @@ import FutureOfPlatform from './Components/FutureOfPlatform/FutureOfPlatform';
 import CryptoArticles from './Components/CryptoArticles/CryptoArticles';
 import Shadows from './Components/Shadows/Shadows';
 import Orbits from './Components/Orbits/Orbits';
-import sprite from './images/sprite.svg'
-import './App.css';
+import s from './App.module.css';
 
 function App() {
   return (
-    <div className='app'>
+    <div className={s.app}>
 
-      <div className='shadowsWrapper'>
+      <div className={s.shadowsWrapper}>
         <Shadows />
       </div>
       
       
-      <div className='siteWrapper'>
+      <div className={s.siteWrapper}>
       <Menu />
       <Home />
-      <div className='orbitsWrapper'>
+      <div className={s.orbitsWrapper}>
         <Orbits />
       </div>
       <AboutUs />
       <FutureOfPlatform />
       <CryptoArticles />
       </div>
-      <svg width={50} height={50}><use href={sprite + "#icon-Line-3"} /></svg>
       
       <Routes>
         <Route path='/' exact component={Home}/>
