@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* overflow: hidden; */
 }
 @font-face {
     font-family: Mazzard;
@@ -75,6 +76,9 @@ button {
     top:0;
     left: 0;
     z-index: 1;
+    width: 390px;
+    height: 4600px;
+    overflow:hidden ;
 }
 
 @media screen and (min-width: 390px) {
@@ -93,6 +97,7 @@ h4 {
 .app{
     width: 390px;
         overflow: hidden;
+        /* background-size: cover; */
 }
 }
 @media screen and (min-width: 1440px) {
@@ -100,6 +105,10 @@ h4 {
     width: 1440px;
     overflow: hidden;
     padding-top: 22px;
+}
+.shadowsWrapper{
+    width: 1440px;
+    height: 3300px;
 }
 body {
     padding-top: 22px;

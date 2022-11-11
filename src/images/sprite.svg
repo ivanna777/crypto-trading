@@ -24,5 +24,17 @@
 <symbol id="icon-blue-arrow-down" viewBox="0 0 50 32">
 <path fill="none" stroke="#1556ee" style="stroke: var(--color7, #1556ee)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M43.556 6.222l-19.556 19.556-19.556-19.556"></path>
 </symbol>
+<symbol id="icon-point-2-desk" viewBox="0 0 32 32">
+<path fill="#45b1ff" style="fill: var(--color1, #45b1ff)" opacity="0.6" d="M28.8 16c0 7.069-5.731 12.8-12.8 12.8s-12.8-5.731-12.8-12.8c0-7.069 5.731-12.8 12.8-12.8s12.8 5.731 12.8 12.8z"></path>
+</symbol>
+<symbol id="icon-point-1-desk" viewBox="0 0 32 32">
+<path fill="#6a8bff" style="fill: var(--color2, #6a8bff)" opacity="0.6" d="M28.8 16c0 7.069-5.731 12.8-12.8 12.8s-12.8-5.731-12.8-12.8c0-7.069 5.731-12.8 12.8-12.8s12.8 5.731 12.8 12.8z"></path>
+</symbol>
+<symbol id="icon-point-2-phone" viewBox="0 0 35 32">
+<path fill="#a66aff" style="fill: var(--color3, #a66aff)" opacity="0.6" d="M29.631 15.488c0 6.753-5.474 12.227-12.227 12.227s-12.227-5.474-12.227-12.227c0-6.753 5.474-12.227 12.227-12.227s12.227 5.474 12.227 12.227z"></path>
+</symbol>
+<symbol id="icon-point-1-phone" viewBox="0 0 35 32">
+<path fill="#6a8bff" style="fill: var(--color2, #6a8bff)" opacity="0.6" d="M30.26 16.712c0 6.753-5.474 12.227-12.227 12.227s-12.227-5.474-12.227-12.227c0-6.753 5.474-12.227 12.227-12.227s12.227 5.474 12.227 12.227z"></path>
+</symbol>
 </defs>
 </svg>

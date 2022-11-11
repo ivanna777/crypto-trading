@@ -2,7 +2,7 @@
 .wrapper {  
     padding-left: 28px;
     padding-right: 28px;
-    background-image: url('../../images/bcg.png');
+    background-image: url('../../images/bcgphone.png');
     position: relative;
 }
 
@@ -67,6 +67,7 @@
 .wrapper {
     padding-top: 102px;
     padding-left: 133px;
+    background-image: url('../../images/bcg.png');
 }
 .schemeImg {
     visibility: visible;
